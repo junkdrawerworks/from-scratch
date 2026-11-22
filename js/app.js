@@ -170,7 +170,7 @@ function waysHTML() {
 
 // ---------- adding ----------
 // The skill as a zip, ready to upload in claude.ai (tools/skill-zip.mjs makes it from skill/from-scratch-cards/).
-const SKILL_URL = 'https://github.com/markjf99702/from-scratch/raw/main/skill/from-scratch-cards.zip';
+const SKILL_URL = 'https://github.com/junkdrawerworks/from-scratch/raw/main/skill/from-scratch-cards.zip';
 
 function addPage() {
   document.title = 'Add a recipe · From Scratch';

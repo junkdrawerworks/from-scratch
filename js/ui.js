@@ -95,7 +95,7 @@ export const plural = (n, one, many = one + 's') => `${n} ${n === 1 ? one : many
 
 // The line back to the drawer, at the foot of every screen but cook mode (and never in print).
 export function footer() {
-  return `<footer class="foot"><a href="https://junkdrawer.works/">Part of junkdrawer.works</a><span aria-hidden="true">·</span><a href="https://junkdrawer.works/privacy.html">Privacy</a><span aria-hidden="true">·</span><a href="https://github.com/markjf99702/from-scratch">Source</a></footer>`;
+  return `<footer class="foot"><a href="https://junkdrawer.works/">Part of junkdrawer.works</a><span aria-hidden="true">·</span><a href="https://junkdrawer.works/privacy.html">Privacy</a><span aria-hidden="true">·</span><a href="https://github.com/junkdrawerworks/from-scratch">Source</a></footer>`;
 }
 
 // Kitchen fractions are drawn from the font's own digits with its fraction feature, so ⅓ and ⅛ match ½.

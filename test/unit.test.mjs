@@ -935,7 +935,7 @@ test('the skill’s zip holds exactly what its folder does', async () => {
   // And a zip tool other than this file's reader opens it, checksums and all.
   if (python) execFileSync(python, ['-c', 'import sys, zipfile; z = zipfile.ZipFile(sys.argv[1]); assert z.testzip() is None', ZIP]);
   const url = /const SKILL_URL = '([^']+)'/.exec(readFileSync(join(root, 'js/app.js'), 'utf8'))[1];
-  assert.equal(url, 'https://github.com/markjf99702/from-scratch/raw/main/skill/from-scratch-cards.zip', 'the Add page links to the zip');
+  assert.equal(url, 'https://github.com/junkdrawerworks/from-scratch/raw/main/skill/from-scratch-cards.zip', 'the Add page links to the zip');
 });
 
 test('the offline copy lists every file the page uses', () => {
